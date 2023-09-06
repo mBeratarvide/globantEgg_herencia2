@@ -22,7 +22,7 @@ public class Lavadora extends Electrodomestico {
 
     @Override
     public String toString() {
-        return "Lavadora{" +
+        return "Lavadora{ " +
                 "carga: " + carga + "Kg" +
                 ", " + super.toString();
     }

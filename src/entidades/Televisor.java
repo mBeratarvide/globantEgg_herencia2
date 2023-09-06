@@ -36,7 +36,7 @@ public class Televisor extends Electrodomestico {
         if(sintonizadorTDT) {
             tieneSintonizadorTDT = "si";
         }
-        return "Televisor{" +
+        return "Televisor{ " +
                 "pulgadas: " + pulgadas + "\"" +
                 ", sintonizadorTDT: " + tieneSintonizadorTDT +
                 ", " + super.toString();

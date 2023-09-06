@@ -13,6 +13,7 @@ public class Negocio {
     public void menu() {
         int opcion = 0;
         do {
+            System.out.println("=== "+nombre+" ===");
             System.out.println("1- Nueva lavadora\n2- Nuevo TV\n7- Ver stock\n8- Calcular totales\n0- Salir");
             opcion = Lector.leer().nextInt();
             Lector.leer().nextLine();
